@@ -37,10 +37,10 @@ function Hero() {
     },
   };
   return (
-    <section className="flex justify-between items-start gap-2 w-full">
-      <div className="w-1/2 h-full pr-20 flex flex-col gap-[35px]">
+    <section className="flex flex-col md:flex-row justify-between items-start gap-2 w-full">
+      <div className="w-full md:w-1/2 h-full md:pr-20 flex flex-col gap-[35px]">
         <motion.h2
-          className="text-[60px]"
+          className="md:text-[60px] text-[40px] font-semibold"
           variants={h2Variants}
           initial="initial"
           animate="animate"
@@ -48,7 +48,7 @@ function Hero() {
           Navigating the digital landscape for success
         </motion.h2>
         <motion.p
-          className="text-[20px]"
+          className="md:text-[20px] text-base"
           variants={paragraphVariants}
           initial="initial"
           animate="animate"
@@ -58,18 +58,18 @@ function Hero() {
           marketing, and content creation.
         </motion.p>
         <motion.div
-          className="w-full"
+          className="w-full grid md:block place-items-center"
           variants={buttonhVariants}
           initial="initial"
           animate="animate"
         >
-          <Button variant="primary" className="w-[276px]">
+          <Button variant="primary" className="md:w-[276px] w-[90vw]">
             Book a consultation
           </Button>
         </motion.div>
       </div>
       <motion.div
-        className="w-1/2 grid place-items-center"
+        className="w-full md:w-1/2 place-items-center md:grid hidden"
         variants={imageVariants}
         initial="initial"
         animate="animate"
