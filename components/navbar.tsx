@@ -1,9 +1,11 @@
 import React from "react";
 import Image from "next/image";
+import Button from "./button/button";
+import { Menu } from "lucide-react";
 
 function Navbar() {
   const navItems: string[] = [
-    "About Us",
+    "About us",
     "Services",
     "Use Cases",
     "Pricing",
@@ -21,11 +23,22 @@ function Navbar() {
           ></Image>
           <h1 className="text-[40px]">Positivus</h1>
         </div>
-        <ul className="flex gap-4">
-          {navItems.map((item) => (
-            <li key={item} className="text-primary">{item}</li>
-          ))}
-        </ul>
+        <div>
+          <ul className="md:flex gap-4 hidden">
+            {navItems.map((item) => (
+              <li key={item} className="text-[20px]">
+                {item}
+              </li>
+            ))}
+          </ul>
+        </div>
+        <div className="hidden md:flex gap-4">
+          <Button variant="outline">Request a quote</Button>
+        </div>
+
+        <div className="md:hidden">
+          <Menu />
+        </div>
       </div>
     </nav>
   );
