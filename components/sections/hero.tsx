@@ -28,15 +28,14 @@ function Hero() {
     },
   };
   const imageVariants = {
-    initial: { y: 10, opacity: 0 },
     animate: {
       scale: 1,
-      y: 0,
-      transition: { duration: 1, delay: 1.5 },
+      y: [0, -10, 0],
+      transition: { duration: 3, repeat: Infinity },
+      ease: "easeInOut",
       opacity: 1,
     },
   };
-
   return (
     <section className="flex justify-between items-start gap-2 w-full">
       <div className="w-1/2 h-full pr-20 flex flex-col gap-[35px]">
