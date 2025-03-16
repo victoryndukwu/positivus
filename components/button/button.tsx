@@ -8,7 +8,7 @@ const buttonVariants = {
   variants: {
     primary: "bg-[#b9ff66] text-black ",
     black: "bg-[#191a23] text-white",
-    outline: "border border-[#191a23] bg-white text-[#191a23] hover:bg-[#b9ff66]",
+    outline: "border border-[#191a23] bg-white text-[#191a23]",
   },
 };
 
