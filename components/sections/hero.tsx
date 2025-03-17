@@ -14,7 +14,7 @@ function Hero() {
     animate: {
       scale: 1,
       y: 0,
-      transition: { duration: 1, delay: 0.5 },
+      transition: { duration: .3, delay: 0.5, ease: "backOut" },
       opacity: 1,
     },
   };
@@ -23,7 +23,7 @@ function Hero() {
     animate: {
       scale: 1,
       y: 0,
-      transition: { duration: 1, delay: 1 },
+      transition: { duration: .3, delay: 1, ease: "backOut" },
       opacity: 1,
     },
   };
@@ -58,12 +58,15 @@ function Hero() {
           marketing, and content creation.
         </motion.p>
         <motion.div
-          className="w-full grid md:block place-items-center"
+          className="w-full grid md:place-items-start place-items-center"
           variants={buttonhVariants}
           initial="initial"
           animate="animate"
         >
-          <Button variant="primary" className="md:w-[276px] w-[90vw]">
+          <Button variant="primary" className="w-[276px] hidden md:block">
+            Book a consultation
+          </Button>
+          <Button variant="black" className="w-[90vw] block md:hidden">
             Book a consultation
           </Button>
         </motion.div>
