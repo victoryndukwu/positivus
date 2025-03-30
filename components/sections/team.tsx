@@ -1,5 +1,6 @@
 import React from "react";
 import SectionTitle from "./section-title";
+import Teamcardlist from "../team-card-list";
 
 function Team() {
   return (
@@ -10,6 +11,9 @@ function Team() {
           "Meet the skilled and experienced team behind our successful digital marketing strategies"
         }
       />
+      <div className="mt-[85px]">
+        <Teamcardlist />
+      </div>
     </section>
   );
 }
