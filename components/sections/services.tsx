@@ -1,5 +1,7 @@
 import React from "react";
 import SectionTitle from "./section-title";
+import ServicesCardList from "../services-card-list";
+import CTACard from "../cards/cta-card";
 
 function Services() {
   return (
@@ -10,6 +12,10 @@ function Services() {
           "At our digital marketing agency, we offer a range of services to help businesses grow and succeed online. These services include:"
         }
       />
+      <ServicesCardList />
+      <div className="mt-[123px]">
+        <CTACard />
+      </div>
     </section>
   );
 }

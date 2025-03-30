@@ -8,7 +8,7 @@ import Testimonials from "@/components/sections/testimonials";
 
 export default function Home() {
   return (
-    <div className="grid place-items-center gap-10 ">
+    <div className="grid place-items-center gap-[140px] ">
       <Hero />
       <Services />
       <CaseStudies />

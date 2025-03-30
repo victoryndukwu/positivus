@@ -4,7 +4,7 @@ import React from "react";
 import { motion } from "motion/react";
 
 const buttonVariants = {
-  base: "py-5 px-[35px] rounded-[14px] font-normal cursor-pointer text-[20px] cursor-pointer transition-all duration-100",
+  base: "py-5 px-[35px] rounded-[14px] font-normal cursor-pointer text-base md:text-[20px] cursor-pointer transition-all duration-100",
   variants: {
     primary: "bg-[#b9ff66] text-black ",
     black: "bg-[#191a23] text-white",
