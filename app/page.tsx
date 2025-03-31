@@ -10,7 +10,7 @@ import Testimonials from "@/components/sections/testimonials";
 export default function Home() {
   return (
     <div className="grid place-items-center gap-[140px] ">
-      <div className="flex flex-col gap-[104px]">
+      <div className="flex flex-col items-center justify-center gap-[104px] w-full">
         <Hero />
         <LogoSlider />
       </div>

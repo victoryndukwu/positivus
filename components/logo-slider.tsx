@@ -4,7 +4,7 @@ import { logos } from "@/utils/data";
 
 function LogoSlider() {
   return (
-    <div className="flex md:gap-[95px] gap-10">
+    <div className="flex md:gap-[95px] gap-10 w-full justify-center">
       {logos.map((logo, idx) => (
         <Image
           src={`${logo}.svg`}
