@@ -12,7 +12,10 @@ function Services() {
           "At our digital marketing agency, we offer a range of services to help businesses grow and succeed online. These services include:"
         }
       />
+      <div className="mt-[85px]">
+
       <ServicesCardList />
+      </div>
       <div className="mt-[123px]">
         <CTACard />
       </div>

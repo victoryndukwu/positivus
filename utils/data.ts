@@ -1,6 +1,6 @@
-import { Service, TeamMember } from "./types";
+import { LogoType, ServiceType, TeamMemberType } from "./types";
 
-export const services: Service[] = [
+export const services: ServiceType[] = [
   {
     title: "Search Engine Optimisation",
     image: "seo",
@@ -48,7 +48,7 @@ export const caseStudies = [
   },
 ];
 
-export const teamMembers: TeamMember[] = [
+export const teamMembers: TeamMemberType[] = [
   {
     name: "John Smith",
     position: "CEO and Founder",
@@ -91,4 +91,13 @@ export const teamMembers: TeamMember[] = [
     description:
       "2+ years of experience in writing and editing. Skilled in creating compelling, SEO-optimized content for various industries",
   },
+];
+
+export const logos: LogoType[] = [
+  "amazon",
+  "dribbble",
+  "hubspot",
+  "notion",
+  "netflix",
+  "zoom",
 ];

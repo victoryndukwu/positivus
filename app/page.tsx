@@ -1,3 +1,4 @@
+import LogoSlider from "@/components/logo-slider";
 import CaseStudies from "@/components/sections/case-studies";
 import ContactUs from "@/components/sections/contact-us";
 import Hero from "@/components/sections/hero";
@@ -9,7 +10,10 @@ import Testimonials from "@/components/sections/testimonials";
 export default function Home() {
   return (
     <div className="grid place-items-center gap-[140px] ">
-      <Hero />
+      <div className="flex flex-col gap-[104px]">
+        <Hero />
+        <LogoSlider />
+      </div>
       <Services />
       <CaseStudies />
       <Processes />

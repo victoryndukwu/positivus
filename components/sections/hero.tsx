@@ -14,7 +14,7 @@ function Hero() {
     animate: {
       scale: 1,
       y: 0,
-      transition: { duration: .3, delay: 0.5, ease: "backOut" },
+      transition: { duration: 0.3, delay: 0.5, ease: "backOut" },
       opacity: 1,
     },
   };
@@ -23,7 +23,7 @@ function Hero() {
     animate: {
       scale: 1,
       y: 0,
-      transition: { duration: .3, delay: 1, ease: "backOut" },
+      transition: { duration: 0.3, delay: 1, ease: "backOut" },
       opacity: 1,
     },
   };

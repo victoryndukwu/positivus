@@ -1,6 +1,7 @@
 import React from "react";
 import SectionTitle from "./section-title";
 import Teamcardlist from "../team-card-list";
+import Button from "../button/button";
 
 function Team() {
   return (
@@ -13,6 +14,9 @@ function Team() {
       />
       <div className="mt-[85px]">
         <Teamcardlist />
+      </div>
+      <div className="flex md:justify-end mt-10 justify-center">
+        <Button className="w-full md:w-[269px]">See all team</Button>
       </div>
     </section>
   );

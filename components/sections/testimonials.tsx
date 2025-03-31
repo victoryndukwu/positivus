@@ -1,5 +1,6 @@
 import React from "react";
 import SectionTitle from "./section-title";
+import TestimonialSlider from "../testimonial-slider";
 
 function Testimonials() {
   return (
@@ -10,6 +11,9 @@ function Testimonials() {
           "Hear from Our Satisfied Clients: Read Our Testimonials to Learn More about Our Digital Marketing Services"
         }
       />
+      <div className="mt-[85px]">
+        <TestimonialSlider />
+      </div>
     </section>
   );
 }
