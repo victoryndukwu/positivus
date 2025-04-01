@@ -18,3 +18,8 @@ export type LogoType =
   | "notion"
   | "netflix"
   | "zoom";
+
+export type WorkingProcessesType = {
+  question: string;
+  answer: string;
+};
