@@ -6,7 +6,7 @@ import Divider from "./divider";
 
 function Footer() {
   return (
-    <footer className="container ">
+    <footer className="container">
       <div className=" p-[60px] rounded-t-[45px] bg-[#191A23] text-white">
         <div className="flex items-center justify-between">
           <Image

@@ -5,7 +5,7 @@ import Image from "next/image";
 
 function ContactUs() {
   return (
-    <section className="w-full flex flex-col gap-20">
+    <section className="w-full flex flex-col gap-20 mb-[140px]">
       <SectionTitle
         title={"Contact Us"}
         description={
