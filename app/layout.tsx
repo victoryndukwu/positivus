@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Space_Grotesk } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/navbar";
+import Footer from "@/components/footer";
 
 // Load the Space Grotesk font
 const spaceGrotesk = Space_Grotesk({
@@ -25,6 +26,7 @@ export default function RootLayout({
       <body className={`${spaceGrotesk.variable} font-sans antialiased`}>
         <Navbar />
         <main className="container">{children}</main>
+        <Footer/>
       </body>
     </html>
   );

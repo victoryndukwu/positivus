@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import Divider from "./divider";
+import { Minus, Plus } from "lucide-react";
 
 interface IAccordionProps {
   index: number;
@@ -24,7 +25,7 @@ function Accordion({ index, question, answer }: IAccordionProps) {
           <p className="text-[30px]">{question}</p>
         </div>
         <div className="rounded-full size-[56px] bg-[#F3F3F3] grid place-items-center border border-black">
-          {open ? "-" : "T"}
+          {open ? <Minus className="size-[25px] font-bold"/> : <Plus className="size-[25px] font-bold"/>}
         </div>
       </div>
 

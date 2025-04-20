@@ -1,4 +1,9 @@
-import { LogoType, ServiceType, TeamMemberType, WorkingProcessesType } from "./types";
+import {
+  LogoType,
+  ServiceType,
+  TeamMemberType,
+  WorkingProcessesType,
+} from "./types";
 
 export const services: ServiceType[] = [
   {
@@ -134,3 +139,13 @@ export const workingProcesses: WorkingProcessesType[] = [
       "During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.",
   },
 ];
+
+export const navItems: string[] = [
+  "About us",
+  "Services",
+  "Use Cases",
+  "Pricing",
+  "Blog",
+];
+
+export const currentYear = new Date().getFullYear();

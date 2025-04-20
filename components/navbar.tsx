@@ -2,15 +2,9 @@ import React from "react";
 import Image from "next/image";
 import Button from "./button/button";
 import { Menu } from "lucide-react";
+import { navItems } from "@/utils/data";
 
 function Navbar() {
-  const navItems: string[] = [
-    "About us",
-    "Services",
-    "Use Cases",
-    "Pricing",
-    "Blog",
-  ];
   return (
     <nav>
       <div className="container flex justify-between items-center py-4">
