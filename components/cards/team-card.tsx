@@ -1,9 +1,9 @@
 import React from "react";
-import { TeamMember } from "@/utils/types";
+import { TeamMemberType } from "@/utils/types";
 import Image from "next/image";
 import Divider from "../divider";
 
-function TeamCard({ name, position, image, description }: TeamMember) {
+function TeamCard({ name, position, image, description }: TeamMemberType) {
   return (
     <div className="flex flex-col border-black border rounded-[30px] p-10 shadow-[0_4px_8px_-2px_rgba(0,0,0,0.1)]">
       <div className="flex items-end justify-start gap-5">
