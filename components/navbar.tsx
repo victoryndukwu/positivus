@@ -7,14 +7,14 @@ import { navItems } from "@/utils/data";
 function Navbar() {
   return (
     <nav>
-      <div className="container flex justify-between items-center py-4">
+      <div className="container flex justify-between items-center py-4 w-screen">
         <div className="flex gap-2">
           <Image
             src={"logo.svg"}
             alt="positivus logo"
             width={35}
             height={35}
-          ></Image>
+          />
           <h1 className="text-[40px]">Positivus</h1>
         </div>
         <div>
