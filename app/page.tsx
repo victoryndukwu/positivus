@@ -12,7 +12,9 @@ export default function Home() {
     <div className="grid place-items-center gap-[140px] ">
       <div className="flex flex-col items-center justify-center gap-[104px] w-full">
         <Hero />
-        <LogoSlider />
+        <div className="flex overflow-hidden">
+          <LogoSlider />
+        </div>
       </div>
       <Services />
       <CaseStudies />

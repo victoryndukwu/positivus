@@ -47,6 +47,20 @@ function Hero() {
         >
           Navigating the digital landscape for success
         </motion.h2>
+        <motion.div
+          className="w-full md:w-1/2 place-items-center grid md:hidden"
+          variants={imageVariants}
+          initial="initial"
+          animate="animate"
+        >
+          <Image
+            src="/hero_Illustration.svg"
+            alt="hero section illustration"
+            width={400}
+            height={315}
+          />
+        </motion.div>
+
         <motion.p
           className="md:text-[20px] text-base"
           variants={paragraphVariants}
